@@ -1,0 +1,579 @@
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/* ===========================
+		Common
+    =========================== */
+	.news-title h2,
+	.gallery-title h2,
+	.meet-title h2,
+	.service-title h2,
+	.garder_title h2 {
+		font-size: 20px;
+	}
+	.news-title p,
+	.btn-area,
+	.gallery-title p,
+	.meet-title p,
+	.service-title p,
+	.garder_title p {
+		margin-bottom: 20px;
+	}
+	.news-img img,
+	.gallery-img img,
+	.meet-image img,
+	.land_img img {
+		min-width: 100%;
+	}
+	.mt30,
+	.mt {
+		margin-top: 30px;
+	}
+	.counter-item p:last-child,
+	.service_desc h3 {
+		font-size: 16px;
+	}
+	/* ===========================
+		 Header Section
+    =========================== */
+	.c_info li,
+	.sign li {
+		margin-right: 10px;;
+	}
+	.c_info li a span {
+		margin-right: 0;
+	}
+	nav {
+		padding: 15px 0 !important;
+	}
+	/* search */
+	.log {
+		min-width: 200px;
+	}
+	.search-box {
+		min-width: 250px;
+		padding: 10px !important;
+	}
+	.search-box input {
+		width: 72% !important;
+	}
+	.search-box button {
+		width: 28% !important;
+	}
+	/* toggle */
+	.main_menu {
+		position: fixed;
+		width: 70%;
+		left: -100%;
+		top: 0%;
+		background-color: #ffffff;
+		padding: 18px 0 50px;
+		z-index: 99;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+		        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+		min-height: 100vh;
+	}
+	.menu-toggle-btn {
+		z-index: 999;
+	}
+	.open-menu {
+		left: 0;
+	}
+	.main_menu ul li:not(:last-of-type) {
+		margin-right: 0 !important;
+		margin-bottom: 20px;
+	}
+	/* ===========================
+		 Hero Section
+    =========================== */
+	.hero_text {
+		padding: 30px 0 30px;
+	}
+	.hero_text h1 {
+		font-size: 22px;
+	}
+	.hero_text p {
+		margin: 9px 0 10px;
+	}
+	/* ===========================
+		 garden Section
+    =========================== */
+	.garden {
+		padding: 35px 0 60px;
+	}
+	.garden_row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.garden_row > * {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.garden_box {
+		min-height: auto;
+	}
+	.garden_box h3 {
+		margin: 5px 0;
+		font-size: 17px;
+	}
+	/* ===========================
+		 Land Section
+    =========================== */
+	.land {
+		padding: 45px 0;
+	}
+	.land_img {
+		text-align: center;
+	}
+	.land_content p:first-child {
+		font-size: 18px;
+	}
+	.land_content p:nth-child(2) {
+		margin: 10px 0 15px;
+	}
+	.land-ul {
+		margin-right: 0;
+	}
+	/* ===========================
+		 Service Section
+    =========================== */
+	.service {
+		padding: 40px 0;
+	}
+	
+	.service_box {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+    	text-align: center;
+		padding: 20px 13px;
+		min-height: 200px;
+	}
+	.service_icon {
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+	/* ===========================
+		 counter Section
+    =========================== */
+	.counter-up {
+		padding: 45px 0 40px;
+	}
+	.c-new,
+	.mt-24 {
+		margin-top: 24px;
+	}
+	/* ===========================
+		 Meet Section
+    =========================== */
+	.meet {
+		padding: 35px 0 45px;
+	}
+	/* ===========================
+		 Gallery Section
+    =========================== */
+	.gallery {
+		padding: 40px 0 35px;
+	}
+	.btn-area button {
+		margin-right: 12px;
+	}
+	/* ===========================
+		 Slider Section
+    =========================== */
+	.slider {
+		padding: 45px 0 35px;
+	}
+	/* ===========================
+		 news Section
+    =========================== */
+	.news {
+		padding: 35px 0 40px;
+	}
+	.news-content p:first-child {
+		font-size: 15px;
+	}
+	/* ===========================
+		 footer Section
+    =========================== */
+	footer {
+	padding: 40px 0 20px !important;	
+	}
+	.f-logo p {
+		padding: 10px 0 20px;
+	}
+	footer h6 {
+		font-size: 20px !important;
+	}
+	.pbottom {
+		padding-bottom: 50px;
+	}
+	.fb-content {
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: column-reverse;
+		        flex-direction: column-reverse;
+		padding-top: 20px;
+	}
+	.fb-content p {
+		margin-top: 5px;
+	}
+	.fb-content span a:not(:last-child) {
+		margin-right: 5px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* ===========================
+		Common
+    =========================== */
+	.news-title h2,
+	.gallery-title h2,
+	.meet-title h2,
+	.service-title h2,
+	.garder_title h2 {
+		font-size: 25px;
+	}
+	.news-title p,
+	.btn-area,
+	.gallery-title p,
+	.meet-title p,
+	.service-title p,
+	.garder_title p {
+		margin-bottom: 20px;
+	}
+	.gallery-img img,
+	.meet-image img,
+	.land_img img {
+		min-width: 100%;
+	}
+	.mt30,
+	.mt {
+		margin-top: 30px;
+	}
+	.counter-item p:last-child,
+	.service_desc h3 {
+		font-size: 16px;
+	}
+	/* ===========================
+		 Header Section
+    =========================== */
+	.c_info li,
+	.sign li {
+		margin-right: 10px;;
+	}
+	.c_info li a span {
+		margin-right: 0;
+	}
+	nav {
+		padding: 20px 0 !important;
+	}
+	/* toggle */
+	.main_menu {
+		position: fixed;
+		width: 80%;
+		left: -100%;
+		top: 0%;
+		background-color: #ffffff;
+		padding: 18px 0 50px;
+		z-index: 99;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+		        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+		min-height: 100vh;
+	}
+	.menu-toggle-btn {
+		z-index: 999;
+	}
+	.open-menu {
+		left: 0;
+	}
+	.main_menu ul li:not(:last-of-type) {
+		margin-right: 0 !important;
+		margin-bottom: 20px;
+	}
+	/* ===========================
+		 Hero Section
+    =========================== */
+	.hero_text {
+		padding: 30px 0;
+	}
+	.hero_text h1 {
+		font-size: 35px;
+	}
+	.hero_text p {
+		margin: 10px 0 20px;
+	}
+	/* ===========================
+		 garden Section
+    =========================== */
+	.garden {
+		padding: 45px 0 70px;
+	}
+	.garden_row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.garden_row > * {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.garden_box {
+		min-height: auto;
+	}
+	.garden_box h3 {
+		margin: 0;
+	}
+	/* ===========================
+		 Land Section
+    =========================== */
+	.land {
+		padding: 55px 0;
+	}
+	.land_img {
+		text-align: center;
+	}
+	.land_content p:first-child {
+		font-size: 18px;
+	}
+	.land_content p:nth-child(2) {
+		margin: 10px 0 15px;
+	}
+	/* ===========================
+		 Service Section
+    =========================== */
+	.service {
+		padding: 50px 0;
+	}
+	
+	.service_box {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+    	text-align: center;
+	}
+	.service_icon {
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+	.mt-24 {
+		margin-top: 24px !important;
+	}
+	.service_desc p {
+		text-align: left;
+	}
+	/* ===========================
+		 counter Section
+    =========================== */
+	.counter-up {
+		padding: 55px 0 50px;
+	}
+	
+	/* ===========================
+		 Meet Section
+    =========================== */
+	.meet {
+		padding: 45px 0 55px;
+	}
+	/* ===========================
+		 Gallery Section
+    =========================== */
+	.gallery {
+		padding: 50px 0 55px;
+	}
+	.btn-area button:not(:last-of-type) {
+		margin-right: 20px;
+	}
+	/* ===========================
+		 Slider Section
+    =========================== */
+	.slider {
+		padding: 55px 0 45px;
+	}
+	/* ===========================
+		 news Section
+    =========================== */
+	.news {
+		padding: 45px 0 50px;
+	}
+	/* ===========================
+		 footer Section
+    =========================== */
+	footer {
+		padding: 50px 0 20px !important;
+	}
+	.f-logo p {
+		padding: 10px 0 20px;
+	}
+	footer h6 {
+		font-size: 20px !important;
+	}
+	.pbottom {
+		padding-bottom: 50px;
+	}
+	.fb-content {
+		padding-top: 20px;
+	}
+	.fb-content span a:not(:last-child) {
+		margin-right: 5px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* ===========================
+		Common
+    =========================== */
+	.news-title p,
+	.btn-area,
+	.gallery-title p,
+	.meet-title p,
+	.service-title p,
+	.garder_title p {
+		margin-bottom: 35px;
+	}
+	.meet-image img,
+	.land_img img {
+		min-width: 100%;
+	}
+	/* ===========================
+		 Header Section
+    =========================== */
+	.c_info li,
+	.sign li {
+		margin-right: 10px;;
+	}
+	nav {
+		padding: 20px 0 !important;
+	}
+	/* toggle */
+	.main_menu {
+		position: fixed;
+		width: 80%;
+		left: -100%;
+		top: 0%;
+		background-color: #ffffff;
+		padding: 18px 0 50px;
+		z-index: 99;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+		        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+		min-height: 100vh;
+	}
+	.menu-toggle-btn {
+		z-index: 999;
+	}
+	.open-menu {
+		left: 0;
+	}
+	.main_menu ul li:not(:last-of-type) {
+		margin-right: 0 !important;
+		margin-bottom: 20px;
+	}
+	/* ===========================
+		 Hero Section
+    =========================== */
+	.hero_text {
+		padding: 10px 0 30px;
+	}
+	.hero_text h1 {
+		font-size: 32px;
+	}
+	.hero_text p {
+		margin: 10px 0 20px;
+	}
+	/* ===========================
+		 garden Section
+    =========================== */
+	.garden {
+		padding: 55px 0 80px;
+	}
+	.mt {
+		margin-top: 35px;
+	}
+	/* ===========================
+		 Land Section
+    =========================== */
+	.land {
+		padding: 65px 0;
+	}
+	.land_img {
+		text-align: center;
+	}
+	.land_content p:nth-child(2) {
+		margin: 15px 0 20px;
+	}
+	/* ===========================
+		 Service Section
+    =========================== */
+	.service {
+		padding: 60px 0;
+	}
+	.mt-24 {
+		margin-top: 24px;
+	}
+	/* ===========================
+		 counter Section
+    =========================== */
+	.counter-up {
+		padding: 65px 0 60px;
+	}
+	/* ===========================
+		 Meet Section
+    =========================== */
+	.meet {
+		padding: 55px 0 65px;
+	}
+	/* ===========================
+		 Gallery Section
+    =========================== */
+	.gallery {
+		padding: 60px 0 65px;
+	}
+	/* ===========================
+		 Slider Section
+    =========================== */
+	.slider {
+		padding: 65px 0 55px;
+	}
+	/* ===========================
+		 news Section
+    =========================== */
+	.news {
+		padding: 55px 0 60px;
+	}
+	/* ===========================
+		 footer Section
+    =========================== */
+	footer {
+		padding: 60px 0 20px !important;
+	}
+	.pbottom {
+		padding-bottom: 60px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* ===========================
+		 Header Section
+    =========================== */
+	
+	.c_info li,
+	.sign li {
+		margin-right: 17px;
+	}
+	.main_menu ul li:not(:last-of-type) {
+		margin-right: 25px;
+	}
+	/* ===========================
+			Header Section
+		=========================== */
+		.hero_text h1 {
+			font-size: 50px;
+		}
+}
